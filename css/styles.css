@@ -2,6 +2,8 @@
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
   --accent-color: #2196f3;
+  --main-color: #212121;
+  --second-color: #757575;
 }
 .list {
   list-style: none;
@@ -15,7 +17,13 @@ body {
 }
 
 /* -------------- HEDER -------------- */
-
+header {
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+}
 .logo-web-top,
 .logo-web-bottom,
 .logo-studio-top,
@@ -37,7 +45,7 @@ body {
   color: #ffffff;
 }
 .navigation-list {
-  color: #212121;
+  color: var(--main-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -51,7 +59,7 @@ body {
   color: var(--accent-color);
 }
 .contact-link {
-  color: #757575;
+  color: var(--second-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -98,14 +106,14 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-color);
   text-transform: uppercase;
 }
 .feature-text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--second-color);
 }
 /* ----------END FEATURE------------- */
 
@@ -115,7 +123,7 @@ body {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-color);
 }
 /* ----------END OUR WORKS---------- */
 
@@ -128,19 +136,21 @@ body {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-color);
 }
 .member-team {
+  font-family: var(--main-font);
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-color);
 }
 .position {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--second-color);
 }
 /* ----------END TEAM------ */
 
@@ -174,7 +184,7 @@ footer {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-color);
   cursor: pointer;
 }
 .filters:focus,
@@ -187,12 +197,12 @@ footer {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--main-color);
 }
 .type-of-card {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--second-color);
 }
 /* ----------END PORTFOLIO----- */
