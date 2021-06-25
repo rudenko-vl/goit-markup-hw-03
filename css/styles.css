@@ -155,12 +155,24 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-color);
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 .feature-text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--second-color);
+}
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  padding: 0;
+}
+.feature-item {
+  padding: 15px;
+  margin-left: 15px;
+  flex-basis: calc((100% - 120px) / 4);
 }
 /* ----------END FEATURE------------- */
 
