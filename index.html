@@ -10,35 +10,40 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Шапка-->
-    <header>
-      <a class="link" href="./index.html"
+    <header class="header">
+      <div class="container header-container">
+      <a class="logo link" href="./index.html"
         ><span class="logo-web-top">Web</span><span class="logo-studio-top">Studio</span></a
       >
-      <nav>
-        <ul class="list">
-          <li>
+      <nav class="navigation">
+        <ul class="menu list">
+          <li class="menu-item">
             <a class="navigation-list link link-current" href="./index.html">Студия</a>
           </li>
-          <li>
+          <li class="menu-item">
             <a class="navigation-list link" href="./portfolio.html">Портфолио</a>
           </li>
-          <li><a class="navigation-list link" href="">Контакты</a></li>
+          <li class="menu-item"><a class="navigation-list link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="list">
+      <ul class="menu-contact list">
         <li><a class="contact-link link" href="mailto:info@example.com">info@example.com</a></li>
-        <li><a class="contact-link link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+        <li><a class="tel-link link" href="tel:+380991111111">+38 099 111 11 11</a></li>
       </ul>
+    </div>
     </header>
     <main>
       <!--Секция hero-->
       <section class="hero">
+        <div class="container">
         <h1 class="main-title">Эффективные решения<br />для вашего бизнеса</h1>
         <button class="service" type="button">Заказать услугу</button>
+      </div>
       </section>
       <!--Секция особенности-->
       <section>
@@ -148,8 +153,9 @@
       </section>
     </main>
     <!--Подвал-->
-    <footer>
-      <a class="link" href="./index.html"
+    <footer class="footer">
+      <div class="container">
+      <a class="foot-logo link" href="./index.html"
         ><span class="logo-web-bottom">Web</span><span class="logo-studio-bottom">Studio</span></a
       >
       <address>
@@ -173,6 +179,7 @@
           </li>
         </ul>
       </address>
+    </div>
     </footer>
   </body>
 </html>

@@ -5,6 +5,27 @@
   --main-color: #212121;
   --second-color: #757575;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
 .list {
   list-style: none;
 }
@@ -15,14 +36,31 @@ body {
   font-family: var(--main-font);
   font-weight: 400;
 }
-
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 /* -------------- HEDER -------------- */
-header {
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-  background: #FFFFFF;
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu-contact {
+  display: flex;
+  margin-left: auto;
+}
+.logo {
+  margin-right: 95px;
 }
 .logo-web-top,
 .logo-web-bottom,
@@ -58,15 +96,24 @@ header {
 .navigation-list:focus {
   color: var(--accent-color);
 }
-.contact-link {
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+.contact-link,
+.tel-link {
   color: var(--second-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+.contact-link {
+  margin-right: 50px;
+}
 .contact-link:hover,
-.contact-link:focus {
+.contact-link:focus,
+.tel-link:hover,
+.tel-link:focus {
   color: var(--accent-color);
 }
 /* -------------- END HEDER -----------*/
@@ -155,8 +202,11 @@ header {
 /* ----------END TEAM------ */
 
 /* ----------FOOTER--------- */
-footer {
+.footer {
   background-color: #2f303a;
+}
+.foot-logo {
+  padding-left: 15px;
 }
 .address-footer {
   font-style: normal;
