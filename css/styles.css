@@ -347,6 +347,7 @@ body {
 /* ----------PORTFOLIO--------- */
 
 .filters {
+  padding: 6px 22px;
   background-color: #f5f4fa;
   font-family: Roboto;
   font-style: normal;
