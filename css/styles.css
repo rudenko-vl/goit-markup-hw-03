@@ -352,7 +352,7 @@ body {
 
 /* ----------PORTFOLIO--------- */
 
-.filter-btn {
+.filt-btn {
   padding: 6px 22px;
   background-color: #f5f4fa;
   font-family: Roboto;
@@ -368,8 +368,8 @@ body {
   border-radius: 4px;
 }
 
-.filter-btn:focus,
-.filter-btn:hover {
+.filt-btn:focus,
+.filt-btn:hover {
   background-color: var(--accent-color);
   color: #ffffff;
 }
