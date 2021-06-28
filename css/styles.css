@@ -334,6 +334,10 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+.contact-link-footer:hover,
+.contact-link-footer:focus {
+  color: var(--accent-color);
+}
 
 .link-footer {
   font-style: normal;
@@ -343,14 +347,16 @@ body {
   color: rgba(255, 255, 255, 0.6);
   margin-top: 9px;
 }
-.contact-link-footer:hover,
-.contact-link-footer:focus {
-  color: var(--accent-color);
-}
 
 /* ----------END FOOTER------ */
 
 /* ----------PORTFOLIO--------- */
+
+.filt-btn:focus,
+.filt-btn:hover {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
 
 .filt-btn {
   padding: 6px 22px;
@@ -366,12 +372,6 @@ body {
   cursor: pointer;
   border: none;
   border-radius: 4px;
-}
-
-.filt-btn:focus,
-.filt-btn:hover {
-  background-color: var(--accent-color);
-  color: #ffffff;
 }
 
 .card-name {
